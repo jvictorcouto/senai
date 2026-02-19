@@ -6,10 +6,10 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-current-file",
-            "program": "${workspaceFolder}\\csharp\\Lógica de Programação e Algoritmos\\Aula 04\\bin\\Debug\\net10.0\\Aula04.dll",
+            "program": "${workspaceFolder}/csharp/Lógica de Programação e Algoritmos/Aula 04/bin/Debug/net10.0/Aula04.dll",
             "args": [],
-            "cwd": "${workspaceFolder}\\csharp\\Lógica de Programação e Algoritmos\\Aula 04",
-            "console": "internalConsole",
+            "cwd": "${workspaceFolder}/csharp/Lógica de Programação e Algoritmos/Aula 04",
+            "console": "integratedTerminal",
             "stopAtEntry": false
         },
         {
@@ -20,7 +20,7 @@
             "program": "${workspaceFolder}/csharp/csharp/bin/Debug/net10.0/csharp.dll",
             "args": [],
             "cwd": "${workspaceFolder}/csharp/csharp",
-            "console": "internalConsole",
+            "console": "integratedTerminal",
             "stopAtEntry": false
         },
         {
