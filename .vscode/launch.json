@@ -2,13 +2,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Aula 04 (processamento)",
+            "name": "Aula 04 (arquivo aberto)",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "build-aula04",
-            "program": "${workspaceFolder}/csharp/Lógica de Programação e Algoritmos/Aula 04/bin/Debug/net10.0/Aula04.dll",
+            "preLaunchTask": "build-current-file",
+            "program": "${workspaceFolder}\\csharp\\Lógica de Programação e Algoritmos\\Aula 04\\bin\\Debug\\net10.0\\Aula04.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/csharp/Lógica de Programação e Algoritmos/Aula 04",
+            "cwd": "${workspaceFolder}\\csharp\\Lógica de Programação e Algoritmos\\Aula 04",
             "console": "internalConsole",
             "stopAtEntry": false
         },

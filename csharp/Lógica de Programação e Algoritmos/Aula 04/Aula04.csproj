@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <Compile Remove="saida.cs" />
+    <Compile Remove="entrada.cs" />
   </ItemGroup>
 
 </Project>
