@@ -1,0 +1,12 @@
+using static System.Console;
+int a, b, c;
+WriteLine("Digite o valor de a:");
+a = int.Parse(ReadLine() ?? "0");
+WriteLine("Digite o valor de b:");
+b = int.Parse(ReadLine() ?? "0");
+WriteLine("Digite o valor de c:");
+c = int.Parse(ReadLine() ?? "0");
+WriteLine($"A equação de segundo grau é: {a}x^2 + {b}x + {c} = 0");
+WriteLine($"O resultado de X1 é: {(-b + Math.Sqrt(b*b - 4*a*c)) / (2*a)}");
+WriteLine($"O resultado de X2 é: {(-b - Math.Sqrt(b*b - 4*a*c)) / (2*a)}");
+WriteLine($"A resolução matemática é: {(-b + Math.Sqrt(b*b - 4*a*c)) / (2*a)} + {(-b - Math.Sqrt(b*b - 4*a*c)) / (2*a)}");

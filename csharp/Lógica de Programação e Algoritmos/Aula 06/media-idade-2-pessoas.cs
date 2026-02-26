@@ -1,0 +1,12 @@
+using static System.Console;
+string nome1, nome2;
+int idade1, idade2;
+WriteLine("Digite o nome da primeira pessoa:");
+nome1 = ReadLine() ?? "";
+WriteLine("Digite a idade da primeira pessoa:");
+idade1 = int.Parse(ReadLine() ?? "0");
+WriteLine("Digite o nome da segunda pessoa:");
+nome2 = ReadLine() ?? "";
+WriteLine("Digite a idade da segunda pessoa:");
+idade2 = int.Parse(ReadLine() ?? "0");
+WriteLine($"A idade média entre {nome1} e {nome2} é: {(idade1 + idade2) / 2.0}");
