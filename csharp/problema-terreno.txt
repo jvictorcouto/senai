@@ -1,3 +1,0 @@
-Problema "Terreno"
-
-Criar um aplicativo de console no ual o usuário tenha que digitar três valores, a largura, o comprimento, eo valor metro quadrado do terreno e em seguida cálcule a área do terreno, o preço do terreno, e mostrar valores na saída de dados.
